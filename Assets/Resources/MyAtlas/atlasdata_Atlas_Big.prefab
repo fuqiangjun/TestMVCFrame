@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1762700227289134}
+  m_IsPrefabAsset: 1
+--- !u!1 &1762700227289134
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4328760838684142}
+  - component: {fileID: 114551088165624626}
+  m_Layer: 0
+  m_Name: atlasdata_Atlas_Big
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4328760838684142
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1762700227289134}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114551088165624626
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1762700227289134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a963fcdd5950d064393ae013a110950b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AtlasTexture: {fileID: 2800000, guid: 59b613c444b92694b93ff63e3f3aa12f, type: 3}
+  TextureNames:
+  - Assets/Sources/Texture/BigScales/whitescreen.png
+  - Assets/Sources/Texture/BigScales/BG1.png
+  - Assets/Sources/Texture/BigScales/ScreensBack2.png
+  - Assets/Sources/Texture/BigScales/GameCrusor.png
+  - Assets/Sources/Texture/BigScales/SwordIntrduce.JPG
+  - Assets/Sources/Texture/BigScales/TrueBack.png
+  - Assets/Sources/Texture/BigScales/MagicIntroduce.JPG
+  - Assets/Sources/Texture/BigScales/PackBG.PNG
+  - Assets/Sources/Texture/BigScales/ProjectLogo.png
+  - Assets/Sources/Texture/BigScales/BigScaleAtlas.png
+  UVs:
+  - serializedVersion: 2
+    x: 0.50097656
+    y: 0
+    width: 0.46875
+    height: 0.52734375
+  - serializedVersion: 2
+    x: 0.25097656
+    y: 0.5019531
+    width: 0.16845703
+    height: 0.22070312
+  - serializedVersion: 2
+    x: 0.13085938
+    y: 0.84375
+    width: 0.046875
+    height: 0.04736328
+  - serializedVersion: 2
+    x: 0.13085938
+    y: 0.8930664
+    width: 0.009521484
+    height: 0.020507812
+  - serializedVersion: 2
+    x: 0.33447266
+    y: 0.7246094
+    width: 0.08251953
+    height: 0.2631836
+  - serializedVersion: 2
+    x: 0
+    y: 0.5019531
+    width: 0.25
+    height: 0.33984375
+  - serializedVersion: 2
+    x: 0.25097656
+    y: 0.7246094
+    width: 0.08251953
+    height: 0.26416016
+  - serializedVersion: 2
+    x: 0.50097656
+    y: 0.5292969
+    width: 0.095214844
+    height: 0.16992188
+  - serializedVersion: 2
+    x: 0
+    y: 0.84375
+    width: 0.12988281
+    height: 0.14941406
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0.5
+    height: 0.5

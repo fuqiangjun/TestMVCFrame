@@ -1,0 +1,260 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1410258647997702}
+  m_IsPrefabAsset: 1
+--- !u!1 &1410258647997702
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4824110964433842}
+  - component: {fileID: 114270174509287320}
+  m_Layer: 0
+  m_Name: atlasdata_Atlas_Knapsack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4824110964433842
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1410258647997702}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114270174509287320
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1410258647997702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a963fcdd5950d064393ae013a110950b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AtlasTexture: {fileID: 2800000, guid: 2195b9f46eafbb745ae2d1743eb894a1, type: 3}
+  TextureNames:
+  - Assets/Sources/Texture/Knapsack/button_square.png
+  - Assets/Sources/Texture/Knapsack/apple.png
+  - Assets/Sources/Texture/Knapsack/b_t_01.png
+  - Assets/Sources/Texture/Knapsack/coins.png
+  - Assets/Sources/Texture/Knapsack/helmets.png
+  - Assets/Sources/Texture/Knapsack/iron_gloves.png
+  - Assets/Sources/Texture/Knapsack/book.PNG
+  - Assets/Sources/Texture/Knapsack/heavy_steel_gloves.png
+  - Assets/Sources/Texture/Knapsack/mp.png
+  - Assets/Sources/Texture/Knapsack/axe.png
+  - Assets/Sources/Texture/Knapsack/cloaks.PNG
+  - Assets/Sources/Texture/Knapsack/the_great_stick.png
+  - Assets/Sources/Texture/Knapsack/shield.png
+  - Assets/Sources/Texture/Knapsack/shoulders.png
+  - Assets/Sources/Texture/Knapsack/scroll.png
+  - Assets/Sources/Texture/Knapsack/steel_gloves.png
+  - Assets/Sources/Texture/Knapsack/steel_sword.png
+  - Assets/Sources/Texture/Knapsack/sword.png
+  - Assets/Sources/Texture/Knapsack/Meat.png
+  - Assets/Sources/Texture/Knapsack/necklace.PNG
+  - Assets/Sources/Texture/Knapsack/pants.png
+  - Assets/Sources/Texture/Knapsack/rings.PNG
+  - Assets/Sources/Texture/Knapsack/hp.png
+  - Assets/Sources/Texture/Knapsack/ingots.png
+  - Assets/Sources/Texture/Knapsack/gem.png
+  - Assets/Sources/Texture/Knapsack/boots.png
+  - Assets/Sources/Texture/Knapsack/gloves.PNG
+  - Assets/Sources/Texture/Knapsack/belts.png
+  - Assets/Sources/Texture/Knapsack/armor.png
+  - Assets/Sources/Texture/Knapsack/f.PNG
+  - Assets/Sources/Texture/Knapsack/bracers.PNG
+  - Assets/Sources/Texture/Knapsack/button_long.png
+  - Assets/Sources/Texture/Knapsack/bag.png
+  - Assets/Sources/Texture/Knapsack/panel.png
+  UVs:
+  - serializedVersion: 2
+    x: 0.9394531
+    y: 0
+    width: 0.021972656
+    height: 0.023925781
+  - serializedVersion: 2
+    x: 0.12695312
+    y: 0
+    width: 0.125
+    height: 0.125
+  - serializedVersion: 2
+    x: 0.25390625
+    y: 0
+    width: 0.125
+    height: 0.125
+  - serializedVersion: 2
+    x: 0.38085938
+    y: 0
+    width: 0.125
+    height: 0.125
+  - serializedVersion: 2
+    x: 0.5078125
+    y: 0
+    width: 0.125
+    height: 0.125
+  - serializedVersion: 2
+    x: 0.9633789
+    y: 0.020019531
+    width: 0.013183594
+    height: 0.013671875
+  - serializedVersion: 2
+    x: 0.76171875
+    y: 0
+    width: 0.125
+    height: 0.125
+  - serializedVersion: 2
+    x: 0.9819336
+    y: 0
+    width: 0.0146484375
+    height: 0.0146484375
+  - serializedVersion: 2
+    x: 0
+    y: 0.25390625
+    width: 0.125
+    height: 0.125
+  - serializedVersion: 2
+    x: 0
+    y: 0.38085938
+    width: 0.125
+    height: 0.125
+  - serializedVersion: 2
+    x: 0
+    y: 0.5078125
+    width: 0.125
+    height: 0.125
+  - serializedVersion: 2
+    x: 0.9633789
+    y: 0
+    width: 0.016601562
+    height: 0.018066406
+  - serializedVersion: 2
+    x: 0
+    y: 0.76171875
+    width: 0.125
+    height: 0.125
+  - serializedVersion: 2
+    x: 0.12695312
+    y: 0.12695312
+    width: 0.125
+    height: 0.125
+  - serializedVersion: 2
+    x: 0.25390625
+    y: 0.12695312
+    width: 0.125
+    height: 0.125
+  - serializedVersion: 2
+    x: 0.9785156
+    y: 0.020019531
+    width: 0.013183594
+    height: 0.013671875
+  - serializedVersion: 2
+    x: 0.9394531
+    y: 0.025878906
+    width: 0.016601562
+    height: 0.018066406
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0.125
+    height: 0.125
+  - serializedVersion: 2
+    x: 0.5078125
+    y: 0.12695312
+    width: 0.125
+    height: 0.125
+  - serializedVersion: 2
+    x: 0.38085938
+    y: 0.12695312
+    width: 0.125
+    height: 0.125
+  - serializedVersion: 2
+    x: 0
+    y: 0.6347656
+    width: 0.125
+    height: 0.125
+  - serializedVersion: 2
+    x: 0
+    y: 0.12695312
+    width: 0.125
+    height: 0.125
+  - serializedVersion: 2
+    x: 0.6347656
+    y: 0
+    width: 0.125
+    height: 0.125
+  - serializedVersion: 2
+    x: 0.25390625
+    y: 0.25390625
+    width: 0.12207031
+    height: 0.12207031
+  - serializedVersion: 2
+    x: 0.3779297
+    y: 0.25390625
+    width: 0.12207031
+    height: 0.12207031
+  - serializedVersion: 2
+    x: 0.6347656
+    y: 0.12695312
+    width: 0.125
+    height: 0.125
+  - serializedVersion: 2
+    x: 0.76171875
+    y: 0.12695312
+    width: 0.125
+    height: 0.125
+  - serializedVersion: 2
+    x: 0.12695312
+    y: 0.25390625
+    width: 0.125
+    height: 0.125
+  - serializedVersion: 2
+    x: 0.12695312
+    y: 0.38085938
+    width: 0.125
+    height: 0.125
+  - serializedVersion: 2
+    x: 0.12695312
+    y: 0.5078125
+    width: 0.125
+    height: 0.125
+  - serializedVersion: 2
+    x: 0.12695312
+    y: 0.6347656
+    width: 0.125
+    height: 0.125
+  - serializedVersion: 2
+    x: 0.8886719
+    y: 0.05078125
+    width: 0.09277344
+    height: 0.023925781
+  - serializedVersion: 2
+    x: 0.12695312
+    y: 0.76171875
+    width: 0.125
+    height: 0.125
+  - serializedVersion: 2
+    x: 0.8886719
+    y: 0
+    width: 0.048828125
+    height: 0.048828125

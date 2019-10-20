@@ -1,0 +1,314 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1674216983425848}
+  m_IsPrefabAsset: 1
+--- !u!1 &1674216983425848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4575340359401180}
+  - component: {fileID: 114381159342730726}
+  m_Layer: 0
+  m_Name: atlasdata_Atlas_Menu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4575340359401180
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1674216983425848}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114381159342730726
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1674216983425848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a963fcdd5950d064393ae013a110950b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AtlasTexture: {fileID: 2800000, guid: fcefab9e563edea41b657ba9d7316d7f, type: 3}
+  TextureNames:
+  - Assets/Sources/Texture/Menu/Button-Apply-Down.png
+  - Assets/Sources/Texture/Menu/button-cancel.png
+  - Assets/Sources/Texture/Menu/button-cancel-down.png
+  - Assets/Sources/Texture/Menu/button-cancel2.png
+  - Assets/Sources/Texture/Menu/Button-Buy.png
+  - Assets/Sources/Texture/Menu/Button-Buy-Down.png
+  - Assets/Sources/Texture/Menu/coin-icon.png
+  - Assets/Sources/Texture/Menu/Button-Accept.png
+  - Assets/Sources/Texture/Menu/Button-Accept-Down.png
+  - Assets/Sources/Texture/Menu/LabelTag.png
+  - Assets/Sources/Texture/Menu/button-cancel2-down.png
+  - Assets/Sources/Texture/Menu/Button-Closet.png
+  - Assets/Sources/Texture/Menu/Button-PlusStatDown.png
+  - Assets/Sources/Texture/Menu/button-quit.png
+  - Assets/Sources/Texture/Menu/button-quit-down.png
+  - Assets/Sources/Texture/Menu/Button-Reset.png
+  - Assets/Sources/Texture/Menu/Button-Reset-Down.png
+  - Assets/Sources/Texture/Menu/Button-ClosetDown.png
+  - Assets/Sources/Texture/Menu/Button-PlusStat.png
+  - Assets/Sources/Texture/Menu/Button-Apply.png
+  - Assets/Sources/Texture/Menu/Menu-Window.png
+  - Assets/Sources/Texture/Menu/Menu-WindowEquip.png
+  - Assets/Sources/Texture/Menu/Menu-WindowQuest.png
+  - Assets/Sources/Texture/Menu/button-return-down.png
+  - Assets/Sources/Texture/Menu/button-save.png
+  - Assets/Sources/Texture/Menu/button-save-down.png
+  - Assets/Sources/Texture/Menu/button-return.png
+  - Assets/Sources/Texture/Menu/Button-Sell.png
+  - Assets/Sources/Texture/Menu/Button-Sell-Down.png
+  - Assets/Sources/Texture/Menu/menu-topdown.psd
+  - Assets/Sources/Texture/Menu/Slot-layout.png
+  - Assets/Sources/Texture/Menu/Menu-WindowInventory.png
+  - Assets/Sources/Texture/Menu/Menu-WindowShop.png
+  - Assets/Sources/Texture/Menu/Menu-WindowSkill.png
+  - Assets/Sources/Texture/Menu/Menu-WindowStatus.png
+  - Assets/Sources/Texture/Menu/MenuHead-Equip.png
+  - Assets/Sources/Texture/Menu/MenuHead-Inventory.png
+  - Assets/Sources/Texture/Menu/MenuHead-Shop.png
+  - Assets/Sources/Texture/Menu/MenuHead-Skill.png
+  - Assets/Sources/Texture/Menu/MenuHead-Status.png
+  - Assets/Sources/Texture/Menu/window-amoutdrop.png
+  - Assets/Sources/Texture/Menu/window-cautiondead.png
+  - Assets/Sources/Texture/Menu/window-cautionsave.png
+  UVs:
+  - serializedVersion: 2
+    x: 0.9394531
+    y: 0.15771484
+    width: 0.04345703
+    height: 0.022460938
+  - serializedVersion: 2
+    x: 0.8725586
+    y: 0.71728516
+    width: 0.092285156
+    height: 0.026855469
+  - serializedVersion: 2
+    x: 0.7998047
+    y: 0.7631836
+    width: 0.092285156
+    height: 0.026855469
+  - serializedVersion: 2
+    x: 0.7998047
+    y: 0.87646484
+    width: 0.068847656
+    height: 0.028808594
+  - serializedVersion: 2
+    x: 0.9394531
+    y: 0.1821289
+    width: 0.04345703
+    height: 0.022460938
+  - serializedVersion: 2
+    x: 0.9394531
+    y: 0.13330078
+    width: 0.04345703
+    height: 0.022460938
+  - serializedVersion: 2
+    x: 0.65478516
+    y: 0.9301758
+    width: 0.0625
+    height: 0.0625
+  - serializedVersion: 2
+    x: 0.7192383
+    y: 0.9609375
+    width: 0.068847656
+    height: 0.028808594
+  - serializedVersion: 2
+    x: 0.7192383
+    y: 0.9301758
+    width: 0.068847656
+    height: 0.028808594
+  - serializedVersion: 2
+    x: 0.97509766
+    y: 0
+    width: 0.017578125
+    height: 0.017578125
+  - serializedVersion: 2
+    x: 0.7998047
+    y: 0.90722656
+    width: 0.068847656
+    height: 0.028808594
+  - serializedVersion: 2
+    x: 0.9848633
+    y: 0.084472656
+    width: 0.014160156
+    height: 0.014160156
+  - serializedVersion: 2
+    x: 0.9848633
+    y: 0.060058594
+    width: 0.014160156
+    height: 0.014160156
+  - serializedVersion: 2
+    x: 0.7998047
+    y: 0.8486328
+    width: 0.09082031
+    height: 0.025878906
+  - serializedVersion: 2
+    x: 0.89404297
+    y: 0.7919922
+    width: 0.09082031
+    height: 0.025878906
+  - serializedVersion: 2
+    x: 0.9394531
+    y: 0.10888672
+    width: 0.04345703
+    height: 0.022460938
+  - serializedVersion: 2
+    x: 0.9394531
+    y: 0.03564453
+    width: 0.04345703
+    height: 0.022460938
+  - serializedVersion: 2
+    x: 0.9848633
+    y: 0.03564453
+    width: 0.014160156
+    height: 0.014160156
+  - serializedVersion: 2
+    x: 0.97509766
+    y: 0.01953125
+    width: 0.014160156
+    height: 0.014160156
+  - serializedVersion: 2
+    x: 0.9394531
+    y: 0.23095703
+    width: 0.04345703
+    height: 0.022460938
+  - serializedVersion: 2
+    x: 0
+    y: 0.5292969
+    width: 0.21728516
+    height: 0.23291016
+  - serializedVersion: 2
+    x: 0.65478516
+    y: 0.5292969
+    width: 0.21582031
+    height: 0.2319336
+  - serializedVersion: 2
+    x: 0.43701172
+    y: 0.7631836
+    width: 0.21582031
+    height: 0.2319336
+  - serializedVersion: 2
+    x: 0.8925781
+    y: 0.8208008
+    width: 0.09082031
+    height: 0.025878906
+  - serializedVersion: 2
+    x: 0.7998047
+    y: 0.7919922
+    width: 0.092285156
+    height: 0.026855469
+  - serializedVersion: 2
+    x: 0.89404297
+    y: 0.7631836
+    width: 0.092285156
+    height: 0.026855469
+  - serializedVersion: 2
+    x: 0.7998047
+    y: 0.8208008
+    width: 0.09082031
+    height: 0.025878906
+  - serializedVersion: 2
+    x: 0.9394531
+    y: 0.060058594
+    width: 0.04345703
+    height: 0.022460938
+  - serializedVersion: 2
+    x: 0.9394531
+    y: 0.084472656
+    width: 0.04345703
+    height: 0.022460938
+  - serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0.9375
+    height: 0.52734375
+  - serializedVersion: 2
+    x: 0.9394531
+    y: 0
+    width: 0.033691406
+    height: 0.033691406
+  - serializedVersion: 2
+    x: 0.43701172
+    y: 0.5292969
+    width: 0.21582031
+    height: 0.2319336
+  - serializedVersion: 2
+    x: 0.21923828
+    y: 0.7631836
+    width: 0.21582031
+    height: 0.2319336
+  - serializedVersion: 2
+    x: 0.21923828
+    y: 0.5292969
+    width: 0.21582031
+    height: 0.2319336
+  - serializedVersion: 2
+    x: 0
+    y: 0.76416016
+    width: 0.21582031
+    height: 0.2319336
+  - serializedVersion: 2
+    x: 0.8725586
+    y: 0.64208984
+    width: 0.11376953
+    height: 0.03564453
+  - serializedVersion: 2
+    x: 0.8725586
+    y: 0.6044922
+    width: 0.11376953
+    height: 0.03564453
+  - serializedVersion: 2
+    x: 0.8725586
+    y: 0.6796875
+    width: 0.11376953
+    height: 0.03564453
+  - serializedVersion: 2
+    x: 0.8725586
+    y: 0.56689453
+    width: 0.11376953
+    height: 0.03564453
+  - serializedVersion: 2
+    x: 0.8725586
+    y: 0.5292969
+    width: 0.11376953
+    height: 0.03564453
+  - serializedVersion: 2
+    x: 0.9394531
+    y: 0.20654297
+    width: 0.04345703
+    height: 0.022460938
+  - serializedVersion: 2
+    x: 0.65478516
+    y: 0.8466797
+    width: 0.14013672
+    height: 0.08154297
+  - serializedVersion: 2
+    x: 0.65478516
+    y: 0.7631836
+    width: 0.1430664
+    height: 0.08154297

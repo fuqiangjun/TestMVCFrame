@@ -1,0 +1,238 @@
+﻿
+{
+    "WeaponList":
+    [
+        {
+            "ID": 1,
+            "Name": "血瓶",
+            "Type_": "Consumable",
+            "Quality_": "Common",
+            "Description": "这个是用来加血的1",
+            "Capacity": 10,
+            "BuyPrice": 10,
+            "SellPrice": 5,
+            "HP": 10,
+            "MP": 0,
+            "Sprite": "Knapsack/hp"
+        },
+        {
+            "ID": 2,
+            "Name": "蓝瓶",
+            "Type_": "Consumable",
+            "Quality_": "Common",
+            "Description": "这个是用来加蓝的2",
+            "Capacity": 10,
+            "BuyPrice": 10,
+            "SellPrice": 5,
+            "HP": 0,
+            "MP": 10,
+            "Sprite": "Knapsack/mp"
+        }
+    ],
+    "EquipmentList":
+    [
+        {
+            "ID": 3,
+            "Name": "胸甲",
+            "Type_": "Equipment",
+            "Quality_": "Rare",
+            "Description": "这个是胸甲",
+            "Capacity": 1,
+            "BuyPrice": 10,
+            "SellPrice": 5,
+            "Sprite": "Knapsack/armor",
+            "Stength":10,
+            "Intellect" :4,
+            "Agility":9 , 
+            "Stamina":1 , 
+            "EquipType":"Chest"
+        },
+        {
+            "ID": 4,
+            "Name": "皮腰带",
+            "Type_": "Equipment",
+            "Quality_": "Rare",
+            "Description": "这个是腰带 可以加速",
+            "Capacity": 1,
+            "BuyPrice": 20,
+            "SellPrice": 10,
+            "Sprite": "Knapsack/belts",
+            "Stength":1,
+            "Intellect" :6,
+            "Agility":10 , 
+            "Stamina":1 , 
+            "EquipType":"Belt"
+        },
+        {
+            "ID": 5,
+            "Name": "鞋子",
+            "Type_": "Equipment",
+            "Quality_": "Legendary",
+            "Description": "这个是鞋子 可以加速",
+            "Capacity": 1,
+            "BuyPrice": 20,
+            "SellPrice": 10,
+            "Sprite": "Knapsack/boots",
+            "Stength":10,
+            "Intellect" :5,
+            "Agility":0 , 
+            "Stamina":10 , 
+            "EquipType":"Boots"
+        },
+        {
+            "ID": 6,
+            "Name": "护腕",
+            "Type_": "Equipment",
+            "Quality_": "Rare",
+            "Description": "这个是护腕 增加防御",
+            "Capacity": 1,
+            "BuyPrice": 20,
+            "SellPrice": 10,
+            "Sprite": "Knapsack/bracers",
+            "Stength":1,
+            "Intellect" :2,
+            "Agility":3 , 
+            "Stamina":4 , 
+            "EquipType":"Bracer"
+        },
+        {
+            "ID": 7,
+            "Name": "手套",
+            "Type_": "Equipment",
+            "Quality_": "Common",
+            "Description": "这个是手套",
+            "Capacity": 1,
+            "BuyPrice": 10,
+            "SellPrice": 5,
+            "Sprite": "Knapsack/gloves",
+            "Stength":12,
+            "Intellect" :22,
+            "Agility":32 , 
+            "Stamina":42 , 
+            "EquipType":"OffHand"
+        },
+        {
+            "ID": 8,
+            "Name": "头盔",
+            "Type_": "Equipment",
+            "Quality_": "Artifact",
+            "Description": "这个是头盔 增加防御",
+            "Capacity": 1,
+            "BuyPrice": 10,
+            "SellPrice": 5,
+            "Sprite": "Knapsack/helmets",
+            "Stength":12,
+            "Intellect" :22,
+            "Agility":32 , 
+            "Stamina":42 , 
+            "EquipType":"Head"
+        },
+        {
+            "ID": 9,
+            "Name": "项链",
+            "Type_": "Equipment",
+            "Quality_": "Rare",
+            "Description": "这个是项链",
+            "Capacity": 1,
+            "BuyPrice": 10,
+            "SellPrice": 5,
+            "Sprite": "Knapsack/necklace",
+            "Stength":2,
+            "Intellect" :4,
+            "Agility":5 , 
+            "Stamina":7 , 
+            "EquipType":"Neck"
+        },
+        {
+            "ID": 10,
+            "Name": "戒指",
+            "Type_": "Equipment",
+            "Quality_": "Rare",
+            "Description": "这个是戒指",
+            "Capacity": 1,
+            "BuyPrice": 10,
+            "SellPrice": 5,
+            "Sprite": "Knapsack/rings",
+            "Stength":2,
+            "Intellect" :4,
+            "Agility":5 , 
+            "Stamina":7 , 
+            "EquipType":"Neck"
+        },
+        {
+            "ID": 11,
+            "Name": "裤腿",
+            "Type_": "Equipment",
+            "Quality_": "Rare",
+            "Description": "这个是裤腿",
+            "Capacity": 1,
+            "BuyPrice": 10,
+            "SellPrice": 5,
+            "Sprite": "Knapsack/pants",
+            "Stength":2,
+            "Intellect" :4,
+            "Agility":5 , 
+            "Stamina":7 , 
+            "EquipType":"Leg"
+        },
+        {
+            "ID": 12,
+            "Name": "护肩",
+            "Type_": "Equipment",
+            "Quality_": "Legendary",
+            "Description": "这个是肩膀",
+            "Capacity": 1,
+            "BuyPrice": 100,
+            "SellPrice": 55,
+            "Sprite": "Knapsack/shoulders",
+            "Stength":2,
+            "Intellect" :4,
+            "Agility":5 , 
+            "Stamina":7 , 
+            "EquipType":"Shoulder"
+        }
+    ],
+    "ConsumableList":
+    [
+        {
+            "ID": 13,
+            "Name": "斧子",
+            "Type_": "Weapon",
+            "Quality_": "Rare",
+            "Description": "这个是斧子",
+            "Capacity": 1,
+            "BuyPrice": 100,
+            "SellPrice": 50,
+            "Sprite": "Knapsack/axe",
+            "Damage":100,
+            "WeaponType" : "MainHand"
+        },
+        {
+            "ID": 14,
+            "Name": "阴阳剑",
+            "Type_": "Weapon",
+            "Quality_": "Rare",
+            "Description": "这个是剑",
+            "Capacity": 1,
+            "BuyPrice": 100,
+            "SellPrice": 50,
+            "Sprite": "Knapsack/sword",
+            "Damage":100,
+            "WeaponType" : "OffHand"
+        }
+    ],
+"TestList":
+[
+    {
+        "ID": 1,
+        "Name": "血瓶",
+        "Type_": "Consumable",
+        "Quality_": "Common",
+        "Description": "这个是用来加血的1",
+        "Capacity": 10,
+        "BuyPrice": 10,
+        "SellPrice": 5,
+        "Sprite": "Knapsack/hp"
+    }
+]
+}
